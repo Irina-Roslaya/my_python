@@ -1,8 +1,9 @@
-first_element = input("Введите значение первого элемента : ")
-second_element = input("Введите значение второго элемента : ")
-def my_max(x,y):
-    if x>y:
-        return x
+firstel = float(input("Введите значение первого элемента : "))
+secondel = float(input("Введите значение второго элемента : "))
+def my_max(firstel,secondel):
+    if firstel > secondel:
+        return firstel
     else:
-        return y
+        return secondel
     
+print(my_max(firstel,secondel))
